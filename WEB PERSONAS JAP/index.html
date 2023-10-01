@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Personas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS aquí -->
+</head>
+<body>
+    <header>
+        <h1>Lista de Personas</h1>
+        <button id="modoBtn">Modo Día/Noche</button>
+    </header>
+
+    <main>
+        <div class="buscador-container">
+            <input type="text" id="buscador" placeholder="Buscar personas...">
+            <button id="buscarBtn">Buscar</button> <!-- Nuevo botón de búsqueda -->
+        </div>
+        <div id="resultadoFiltrado" class="resultado-filtrado"></div>
+        <ul id="listaPersonas">
+            <!-- Aquí se mostrarán todas las personas, pero se filtrarán en tiempo real -->
+        </ul>
+    </main>
+
+    <script src="script.js"></script> <!-- Enlaza tu archivo JavaScript aquí -->
+</body>
+</html>

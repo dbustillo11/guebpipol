@@ -1,0 +1,73 @@
+/* Establece la tipografía sin serifa para todo el documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #DB5B00; /* Color principal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el nuevo div de resultados */
+.resultado-filtrado {
+    background-color: #DB5B00; /* Color principal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el botón "Modo Día/Noche" */
+#modoBtn {
+    background-color: #B54B00; /* Color secundario */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+/* Estilos para el cuerpo */
+body.modo-dia {
+    background-color: white; /* Fondo blanco en modo día */
+    color: #000; /* Texto negro en modo día */
+}
+
+body.modo-noche {
+    background-color: #361600; /* Fondo contrastante en modo noche */
+    color: white; /* Texto blanco en modo noche */
+}
+
+/* Estilos para el campo de búsqueda */
+#buscador {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #DB5B00; /* Color principal para el borde */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilos para la lista de personas */
+#listaPersonas {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista de personas */
+#listaPersonas li {
+    background-color: #F5F5F5; /* Color de fondo suave */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DB5B00; /* Color principal para el borde */
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+#listaPersonas li:hover {
+    background-color: #361600; /* Color contrastante al pasar el mouse */
+    color: white;
+}
